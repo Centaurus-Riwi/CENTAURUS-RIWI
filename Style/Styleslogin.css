@@ -1,0 +1,38 @@
+body {
+    /* Fondo degradado similar al de la imagen */
+    background: linear-gradient(135deg, #a82852 0%, #42299ed2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.card {
+    /* Estilo de la tarjeta blanca */
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px; /* Limitar el ancho */
+    width: 100%;
+}
+.btn-login-gradient {
+    /* Botón con degradado Púrpura/Rosa */
+    background: linear-gradient(90deg, #9b59b6 0%, #e74c3c 100%);
+    border: none;
+    color: white;
+    padding: 0.75rem 1rem;
+    font-weight: bold;
+}
+.btn-login-gradient:hover {
+        /* Efecto hover sutil */
+    background: linear-gradient(90deg, #a963c6 0%, #f1685a 100%);
+}
+.header-text {
+    /* Estilo para el encabezado ">2. Iniciar Sesión" */
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+/* Ocultar las etiquetas (labels) del input, ya que en la imagen están como placeholders */
+.form-label {
+    display: none;
+}
