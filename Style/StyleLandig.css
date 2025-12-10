@@ -19,7 +19,7 @@ h1, h2, h3, h5 {
     padding: 1rem 0;
 }
 
-.logo-text {
+.logo-text a{
     color: #fff !important;
     font-size: 1.6rem;
     font-weight: 700;
