@@ -1,0 +1,39 @@
+/* ===========================
+         GLOBAL
+=========================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+h1, h2, h3, h5 {
+    font-weight: 700;
+}
+
+/* ===========================
+         NAVBAR
+=========================== */
+.custom-nav {
+    background: #000000;
+    padding: 1rem 0;
+}
+
+.logo-text {
+    color: #fff !important;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo-text i {
+    font-size: xx-large;
+}
+.nav-link {
+    color: #ddd !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff4d6d !important;
+}
