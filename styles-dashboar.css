@@ -1,0 +1,456 @@
+/* ===========================
+   GLOBAL
+=========================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+h1, h2, h3, h5 {
+    font-weight: 700;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+.custom-nav {
+    background: #111;
+    padding: 1rem 0;
+}
+
+.logo-text {
+    color: #fff !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #ddd !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff4d6d !important;
+}
+
+.lock-icon {
+    font-size: 2rem;
+    color: white;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+.sidebar {
+    width: 160px;
+    height: 100vh;
+    background: black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.sidebar .logo-text {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+.sidebar ul li {
+    margin: 25px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    padding: 12px 18px;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #222;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: linear-gradient(#6c63ff, #ff4d6d);
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+.content {
+    margin-left: 180px;
+    padding: 20px;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+.hero-section {
+    background: linear-gradient(to right, #ff4d6d, #6c63ff);
+    color: white;
+    padding: 120px 0;
+}
+
+/* ===========================
+   CATEGORY CARDS
+=========================== */
+.category-card {
+    border: none;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+}
+
+.placeholder-icon {
+    width: 70px;
+    height: 70px;
+    background: #f7eef0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===========================
+   EVENT CARDS
+=========================== */
+.event-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-6px);
+}
+
+/* ===========================
+   FEATURED EVENT
+=========================== */
+.featured-card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.placeholder-featured {
+    height: 100%;
+    min-height: 300px;
+    background: linear-gradient(135deg, #6c63ff, #ff4d6d);
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.custom-footer {
+    background: #111;
+    color: white;
+    padding: 40px 0;
+}
+
+.social-icons a i {
+    font-size: 1.4rem;
+}
+
+/* ------------------------------
+   RESPONSIVE — TABLETS (≤ 992px)
+------------------------------ */
+@media (max-width: 992px) {
+
+    /* Sidebar más compacta */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        position: relative;
+    }
+
+    .sidebar ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .sidebar ul li {
+        margin: 5px 0;
+    }
+
+    .sidebar ul li a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+
+    .hero-section {
+        padding: 80px 20px;
+    }
+
+    .lock-icon {
+        font-size: 1.5rem;
+    }
+
+    .featured-card .row {
+        flex-direction: column;
+    }
+
+    .placeholder-featured {
+        min-height: 200px;
+    }
+
+    footer .col-md-3 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024) {
+
+    /* Sidebar convertida en menú tipo móvil */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        position: relative;
+    }
+
+    .sidebar ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .sidebar ul li {
+        margin: 5px 0;
+    }
+
+    .sidebar ul li a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+
+    .hero-section {
+        padding: 80px 20px;
+    }
+
+    .lock-icon {
+        font-size: 1.5rem;
+    }
+
+    .featured-card .row {
+        flex-direction: column;
+    }
+
+    .placeholder-featured {
+        min-height: 200px;
+    }
+
+    footer .col-md-3 {
+        text-align: center;
+    }
+}
+
+/* ------------------------------
+   RESPONSIVE — MÓVILES (≤ 768px)
+------------------------------ */
+@media (max-width: 768px) {
+
+    /* Sidebar convertida en menú tipo móvil */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        position: relative;
+    }
+
+    .sidebar ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .sidebar ul li {
+        margin: 5px 0;
+    }
+
+    .sidebar ul li a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+
+    .hero-section {
+        padding: 80px 20px;
+    }
+
+    .lock-icon {
+        font-size: 1.5rem;
+    }
+
+    .featured-card .row {
+        flex-direction: column;
+    }
+
+    .placeholder-featured {
+        min-height: 200px;
+    }
+
+    footer .col-md-3 {
+        text-align: center;
+    }
+}
+
+/* ------------------------------
+   RESPONSIVE — SM (≤ 576px)
+------------------------------ */
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn-explore {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .placeholder-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .event-card {
+        margin-bottom: 15px;
+    }
+
+    .custom-footer {
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 1700px) and (max-width: 2000px) {
+    /* sidebar */
+    .sidebar {
+        width: 180px;
+        padding: 25px;
+    }
+
+    .sidebar ul li a {
+        font-size: 20px;
+        padding: 18px 22px;
+    }
+
+    .sidebar ul li {
+        margin: 35px 0;
+        margin-top: 60%;
+    }
+
+    .lock-icon {
+        font-size: 3rem;
+    }
+
+    /* ----- CONTENT ----- */
+    .content {
+        margin-left: 220px;
+        padding: 35px;
+    }
+
+    /* ----- HERO AREA ----- */
+    .hero-section {
+        padding: 160px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero-section p {
+        font-size: 1.4rem;
+    }
+
+    .btn-explore {
+        font-size: 1.2rem;
+        padding: 15px 32px;
+    }
+
+    /* ----- CATEGORY CARDS ----- */
+    .category-card {
+        padding: 30px;
+        transform: scale(1.03);
+    }
+
+    .placeholder-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    /* ----- EVENT CARDS ----- */
+    .event-card {
+        transform: scale(1.02);
+        margin-bottom: 30px;
+    }
+
+    .placeholder-event {
+        height: 220px;
+    }
+
+    /* ----- FEATURED EVENT ----- */
+    .featured-card {
+        transform: scale(1.03);
+    }
+
+    .placeholder-featured {
+        min-height: 360px;
+    }
+
+    .btn-tickets {
+        font-size: 1.2rem;
+        padding: 16px 34px;
+    }
+
+    /* ----- FOOTER ----- */
+    .custom-footer {
+        padding: 40px 0;
+    }
+
+    footer h5 {
+        font-size: 1.3rem;
+    }
+
+    footer p,
+    footer a {
+        font-size: 1.1rem;
+    }
+
+    .social-icons a i {
+        font-size: 1.8rem;
+    }
+}
