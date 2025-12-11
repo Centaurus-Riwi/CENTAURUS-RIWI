@@ -28,6 +28,8 @@ h1, h2, h3, h5 {
 .logo-text i {
     font-size: xx-large;
 }
+
+
 .nav-link {
     color: #ddd !important;
     font-weight: 500;
@@ -35,27 +37,7 @@ h1, h2, h3, h5 {
 }
 
 .nav-link:hover {
-    color: #ff4d6d !important;
-}
-
-.btn-login {
-    border-color: #ff4d6d;
-    color: #ff4d6d;
-    transition: 0.3s;
-    text-decoration: none;
-}
-.btn-login:hover {
-    background: #ff4d6d;
-    color: #fff;
-}
-
-.btn-signup {
-    background: #ff4d6d;
-    border: none;
-    transition: 0.3s;
-}
-.btn-signup:hover {
-    background: #ff214d;
+    color: #008cff !important;
 }
 
 /* ===========================
