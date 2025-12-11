@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Landing.page/Style/ticket.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+        <div class="container-fluid container">
+            <a class="navbar-brand logo-text" href="#">MEDEVENTS
+                <i class="bi bi-globe-americas"></i>
+            </a> 
+            
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tickets">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="d-flex button-group">
+                <a href="Login.html" class="btn btn-outline-primary me-2 btn-login" target="_blank">Login</a>
+                <button class="btn btn-primary btn-signup">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+    <main class="container">
+
+        <h1 class="page-title">Tickets</h1>
+        <p class="subtitle">Choose your event and reserve your spot</p>
+
+        <!-- FILTERS -->
+        <div class="filters">
+            <select>
+                <option>Category</option>
+                <option>Sports</option>
+                <option>Food</option>
+                <option>Cars</option>
+                <option>Video Games</option>
+            </select>
+
+            <select>
+                <option>Date</option>
+            </select>
+
+            <input type="text" placeholder="Search events">
+
+            <button class="filter-btn">Filter</button>
+        </div>
+
+        <div class="content">
+
+            <!-- LEFT SIDE (EVENT GRID) -->
+            <section class="events">
+
+                <div class="card">
+                    <div class="img-placeholder1"></div>
+                    <h3>Burger Challenge</h3>
+                    <p>December 17</p>
+                    <p>Burger Mania</p>
+                    <p class="description">Eat 10 burgers in less that 15 minutes and win 1000$</p>
+                    <div class="price">$20</div>
+                    <button class="buy-btn">Buy Ticket</button>
+                </div>
+
+                <div class="card">
+                    <div class="img-placeholder2"></div>
+                    <h3>Spicy Ramen Challenge</h3>
+                    <p>December 30</p>
+                    <p>Xing Ramen</p>
+                    <p class="description">Win 500$ eating spicy food</p>
+                    <div class="price">$25</div>
+                    <button class="buy-btn">Buy Ticket</button>
+                </div>
+
+                <div class="card">
+                    <div class="img-placeholder3"></div>
+                    <h3>Master Chef Style</h3>
+                    <p>January 1</p>
+                    <p>KitchenMaster</p>
+                    <p class="description">Create the best dish in your style</p>
+                    <div class="price">$40</div>
+                    <button class="buy-btn">Buy Ticket</button>
+                </div>
+
+                <div class="card">
+                    <div class="img-placeholder4"></div>
+                    <h3>January 9</h3>
+                    <p>Date and Time</p>
+                    <p>Location</p>
+                    <p class="description">Short description of the event...</p>
+                    <div class="price">$60</div>
+                    <button class="buy-btn">Buy Ticket</button>
+                </div>
+
+                <div class="card">
+                    <div class="img-placeholder5"></div>
+                    <h3>January 15</h3>
+                    <p>Date and Time</p>
+                    <p>Location</p>
+                    <p class="description">Short description of the event...</p>
+                    <div class="price">$60</div>
+                    <button class="buy-btn">Buy Ticket</button>
+                </div>
+
+
+                <div class="card">
+                    <div class="img-placeholder6"></div>
+                    <h3>February 1</h3>
+                    <p>Date and Time</p>
+                    <p>Location</p>
+                    <p class="description">Short description of the event...</p>
+                    <div class="price">$60</div>
+                    <button class="buy-btn">Buy Ticket</button>
+                </div>
+
+            </section>
+
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+                <h3>Popular Events</h3>
+                <ul>
+                    <li><a href="#">Popular Event Link 1</a></li>
+                    <li><a href="#">Popular Event Link 2</a></li>
+                    <li><a href="#">Popular Event Link 3</a></li>
+                    <li><a href="#">Popular Event Link 4</a></li>
+                    <li><a href="#">Popular Event Link 5</a></li>
+                    <li><a href="#">Popular Event Link 6</a></li>
+                </ul>
+            </aside>
+
+        </div>
+
+        <!-- FEATURED SECTION -->
+        <section class="featured">
+            <div class="featured-img"></div>
+            <div class="featured-info">
+                <h2>Music Fest Summer 2025 </h2>
+                <p>will be an unforgettable event bringing together music lovers from around the world. Featuring top global artists, stunning stages, and a vibrant atmosphere, it promises an amazing experience with concerts across multiple genres. Get ready for the ultimate celebration of music!</p>
+                <button class="buy-btn">Buy Ticket</button>
+            </div>
+        </section>
+
+   
+    </main>
+
+    <footer class="footer mt-5 pt-5 pb-3 custom-footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3 mb-4">
+                    <h5>About</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">Our Story</a></li>
+                        <li><a href="#" class="text-white-50">Team</a></li>
+                        <li><a href="#" class="text-white-50">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h5>Categories</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">Video Games</a></li>
+                        <li><a href="#" class="text-white-50">Cars</a></li>
+                        <li><a href="#" class="text-white-50">Dance</a></li>
+                        <li><a href="#" class="text-white-50">Food</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3 mb-4">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">FAQ</a></li>
+                        <li><a href="#" class="text-white-50">Help Center</a></li>
+                        <li><a href="#" class="text-white-50">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3 mb-4">
+                    <h5>Social Media</h5>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" class="me-2">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="mt-4 border-light opacity-25">
+            
+            <div class="text-center text-white-50 small copyright-text">
+                &copy; 2024 Events Portal. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+

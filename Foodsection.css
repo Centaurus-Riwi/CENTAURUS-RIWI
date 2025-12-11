@@ -1,0 +1,172 @@
+/* ===========================
+         GLOBAL
+=========================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+h1, h2, h3, h5 {
+    font-weight: 700;
+}
+
+/* ===========================
+         NAVBAR
+=========================== */
+.custom-nav {
+    background: #111;
+    padding: 1rem 0;
+}
+
+.logo-text {
+    color: #fff !important;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo-text i {
+    font-size: xx-large;
+}
+
+
+.nav-link {
+    color: #ddd !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #008cff !important;
+}
+
+/* ===========================
+        HERO SECTION
+=========================== */
+.hero-section {
+    background: linear-gradient(to right, #ff4d6d, #6c63ff);
+    color: #fff;
+    padding: 120px 0;
+}
+
+.btn-explore {
+    background: #fff;
+    color: #6c63ff;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.btn-explore:hover {
+    background: #f0f0f0;
+}
+
+/* ===========================
+       CATEGORY CARDS
+=========================== */
+.category-card {
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.12);
+}
+
+.placeholder-icon {
+    width: 70px;
+    height: 70px;
+    background: #f7eef0;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.placeholder-icon.mb-3 {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ===========================
+       EVENT CARDS
+=========================== */
+.event-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.event-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* Placeholder image style */
+.placeholder-event {
+    height: 180px;
+    background: #d3dcf3;
+    opacity: 0.85;
+}
+
+
+/* ===========================
+        FOOTER
+=========================== */
+.custom-footer {
+    background: #111;
+    color: #fff;
+}
+
+.footer h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #fff !important;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+}
+div.social-icons {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ===========================
+      SMALL ANIMATIONS
+=========================== */
+.card, .btn {
+    transition: all 0.3s ease;
+}
+.half-height {
+    height: 50%;              /* Ocupa la mitad del contenedor */
+    overflow: hidden;         /* Oculta lo que sobresalga */
+}
+
+.half-height img {
+    width: 100%;              /* Que ocupe el ancho completo */
+    height: 100%;             /* Que llene la altura del contenedor */
+    object-fit: cover;        /* Mantiene proporción y recorta si hace falta */
+}
+@media (min-width: 768px) {
+    .half-height { height: 50%; }
+}
