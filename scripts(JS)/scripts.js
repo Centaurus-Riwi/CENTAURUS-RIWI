@@ -53,3 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+document.getElementById('button-submit').onclick = function(){
+    alert("¡You message has been sent,we will be contacting you immediately!")
+}
