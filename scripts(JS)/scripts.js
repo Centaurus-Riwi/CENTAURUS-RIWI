@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const password = document.getElementById("password").value;
 
             if (login(username, password)) {
-                alert("Bienvenido administrador!");
+                alert("¡Login Successful!");
                 sessionStorage.setItem("isLogged", "true");
                 window.location.href = "admin.html";
             } else {
-                alert("Usuario o contraseña incorrectos...");
+                alert("Invalid credentials. Please try again.");
             }
         });
     }
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     botones.forEach(boton => {
         boton.addEventListener("click", (e) => {
             e.preventDefault();
-            alert(" Esta función está en desarrollo ");
+            alert("¡We are working on this function!");
         });
     });
 
