@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (login(username, password)) {
                 alert("¡Login Successful!");
                 sessionStorage.setItem("isLogged", "true");
-                window.location.href = "admin.html";
+                window.location.href = "./admin.html";
             } else {
                 alert("Invalid credentials. Please try again.");
             }
